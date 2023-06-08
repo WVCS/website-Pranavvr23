@@ -1,4 +1,82 @@
 body{ 
-background: #070707;
+background: #F4EFFA;
 }
 
+
+h1 {
+  color: #2F184B;
+  padding: 10;
+  font-family: ariel;
+  
+  
+
+}
+
+div{
+  left: 100px;
+  padding: 100;
+  width: 500px;
+  height: 300px;
+  background: #C8B1E4;
+  postition: fixed;
+   transition: background-color 0.5s ease-out 10ms, height 0.1s ease-out 100ms, width 0.1s ease-out 100ms ;
+  
+   
+}
+
+div:hover{
+  background: #9B72CF;
+  width: 550px;
+  height: 310px;
+}
+
+nav{
+  list-style-type: none;
+  height: 100vw;
+  background: #C8B1E4;
+  top: 0;
+  left: 0;
+  padding: px;
+  position: fixed;
+}
+
+li{
+  display: ;
+  padding: 13px;
+  background: #C8B1E4 ;
+  transition:background 0.5s ease-out 10ms, padding 0.1s ease-out 10ms;
+}
+
+a{
+  color: #F4EFFA;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: helvetica;
+  transition:background 0.5s ease-out 10ms
+}
+
+li:hover{
+  background:#9B72CF;
+  padding: 20px;
+} 
+
+li:hover a{
+  color: #2F184B;
+}
+li:hover img{
+  height: 100px;
+}
+
+image1{
+  left: 0;
+  height: 90px;
+  width: 20 px;
+  bottom: 0;
+  position: fixed;
+}
+
+#img2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
